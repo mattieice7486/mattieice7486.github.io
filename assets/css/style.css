@@ -1,0 +1,91 @@
+header {
+
+}
+body {
+  background-image: url("/assets/images/vintage-concrete.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-content {
+  padding: 0px 10%;
+}
+h1 {
+  float: left;
+  margin-left: 0px;
+  text-align: left;
+  background-color: #4aaaa5;
+  color: #fff;
+  padding: 50px 50px;
+}
+
+h2 {
+  color: #4aaaa5;
+}
+
+.row {
+  max-width: 960px;
+  margin: 0 10%;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  padding: 50px 0;
+}
+
+.connect {
+  float: left;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #666666;
+  color: #fff;
+  padding: 50px 0;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+#green-bar {
+  background-color: #4aaaa5;
+  height: 10px;
+  width: auto;
+  clear: both;
+  margin: 0 0;
+}
+
+p {
+  float: left;
+  clear: both;
+}
+
+/* ---------IMAGES-------------*/
+
+.matt-cat {
+  height: 200px;
+  width: 200px;
+  clear: both;
+  float: left;
+}
+
+/* ---------ICONS-------------*/
+
+.social-icons {
+  list-style: none;
+  float: left;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
