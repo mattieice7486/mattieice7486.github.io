@@ -1,71 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>About</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-  <script src="main.js"></script>
-</head>
-<body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Matthew Eisenstadter</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>Matt Eisenstadter</title>
+
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">  
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="resources/img/boomdog BW.png" alt="logo" class="logo">
+                    <img src="resources/img/boomdog final.jpg" alt="logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#features">About</a></li>
+                        <li><a href="#cities">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>Matthew Eisenstadter<br>Full Stack Web Developer</h1>
+                <a class="btn btn-full js--scroll-to-contact" href="#">Talk to me</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#">See my work</a>
+            </div>
+            
+        </header>
+        
+        <section class="section-features js--section-features" id="features">
+            <div class="row">
+                <h2>What is a Full-Stack Web Developer?</h2>
+                <p class="long-copy">
+                    I studied web development at the UNH Coding Bootcamp in 2018. I learned the MERN stack, which stands for Mongo.db, Express, React, and Node.js. What does all this mean?
+                </p>
+            </div>
+            
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4">
+                    <div class="MERN">
+                        <img src="resources/img/mongodb.png" alt="logo">
+                    </div>
+                    <p>
+                        Mongo is a NoSQL database system, meaning it uses a format similar to Javascript Object Notation, or JSON, instead of tabular relationships.
+                    </p>
+                </div>
+                <div class="col span-1-of-4">
+                    <div class="MERN">
+                        <img src="resources/img/Expressjs.png" alt="logo">
+                    </div>
+                    <p>
+                        Express is the framework for javascript based web applications. Includes server functionality, routing, and middleware.
+                    </p>
+                </div>
+                <div class="col span-1-of-4">
+                    <div class="MERN">
+                        <img src="resources/img/react.png" alt="logo">
+                    </div>
+                    <p>
+                        A javascript library for building user interfaces, React can be used as a base in the development of single page, or mobile applications.
+                    </p>
+                </div>
+                <div class="col span-1-of-4">
+                    <div class="MERN">
+                        <img src="resources/img/nodejs.jpg" alt="logo">
+                    </div>
+                    <p>
+                        Node is an open source, cross platform javascript environment that can execute javascript code server side.
+                    </p>
+                </div>
+            </div>   
+        </section>
+        
+        <section class="section-meals">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
+                    </figure>
+                </li>
             </ul>
-    </div>
-  </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12" id="main-content">
-        <h2>About Me</h2>
-        <div class="gray-bar-main"></div>
-        <img class="matt-cat" src="assets/images/matt-cat.jpg">
-        <p>Hi! My name is Matt, and I'm 31 years old. I was born on the Fourth of July in 1986; the 100th anniversary of the Statue of Liberty. I was born in Manhattan, but my family moved to New Hampshire less than a year after I was born. I've lived in New Hampshire for most of the rest of my life, starting in Cheshire county and then the seacoast area before finally settling in Concord.</p>
-        <br>
-        <p>I recieved my Bachelor of Science at UNH, and my MBA at Antioch NE Grad School. I worked many odd jobs throughout my life, but recently I started a custom drum building company called BoomDog Drums, worked as a recycling technician, and volunteered at an elementary school in Israel. Currently, I am studying to be a full stack web developer and start my new career. On the Portfolio page, you can see some examples of the work I've done coding. Thanks for looking!</p>
-      </div>
-      <div class="md-auto"></div>
-      <div class="col-xl-auto col-lg-auto col-md-auto col-sm-auto col-xs-auto" id="connect">
-        <h2>Connect with Me</h2>
-          <div class="gray-bar"></div>
-          <div class="row">
-            <ul class="social-icons">
-              <li><a href="http://github.com/mattieice7486" target="_blank">
-                <img src="assets/images/github.png" alt="github" style="width:42px;height:42px;border:0;">
-              </a></li>
-            <li><a href="https://www.linkedin.com/in/matthew-eisenstadter-1536872b" target="_blank">
-              <img src="assets/images/linkedin.png" alt="linkedin" style="width:42px;height:42px;border:0;">
-            </a></li>
-            <li><a href="https://stackexchange.com/users/13034700/mattieice" target="_blank">
-              <img src="assets/images/stackoverflow.png" alt="stackoverflow" style="width:42px;height:42px;border:0;">
-            </a></li>
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
+                    </figure>
+                </li>
             </ul>
-          </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-      <div id="green-bar"></div>
-        &copy; Copyright 2018 Matthew Eisenstadter
-    </footer>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+        </section>
+        
+        
+        <section class="section-cities js--section-cities" id="cities">
+            <div class="row">
+                <h2>Portfolio Pieces</h2>
+            </div>
+            <div class="row js--wp-3">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/Earthtube.png" alt="Earthtube">
+                    <div class="city-feature">
+                        <a href="https://mattieice7486.github.io/earthtube/" target="_blank"><h3>Tube The Earth</h3></a>
+                    </div>
+                </div>  
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/Firebase.png" alt="Firebase">
+                    <div class="city-feature">
+                            <a href="https://mattieice7486.github.io/firebase/" target="_blank"><h3>Rock Paper Scissors</h3></a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/Trivia.png" alt="Trivia">
+                    <div class="city-feature">
+                            <a href="https://mattieice7486.github.io/trivia/" target="_blank"><h3>Trivia</h3></a>
+                        </div>                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/crystal-collector.png" alt="Crystal">
+                    <div class="city-feature">
+                        <a href="https://mattieice7486.github.io/crystal-collector/" target="_blank"><h3>Crystal Collector</h3></a>
+                    </div>            
+                </div>
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/cat-and-mouse.png" alt="cat-and-mouse">
+                    <div class="city-feature">
+                        <a href="https://scratch.mit.edu/projects/195368547/" target="_blank"><h3>Cat and Mouse Game</h3></a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/AJAX.png" alt="AJAX">
+                    <div class="city-feature">
+                            <a href="https://mattieice7486.github.io/AJAX/" target="_blank"><h3>Giphy App</h3></a>
+                        </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/###" alt="###">
+                    <div class="city-feature">
+                        <a href="https://mattieice7486.github.io/earthtube/" target="_blank"><h3>HyperWord</h3></a>
+                </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/####" alt="####">
+                    <div class="city-feature">
+                        <a href="https://mattieice7486.github.io/earthtube/" target="_blank"><h3>###</h3></a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    
+        <section class="section-form js--section-contact" id="contact">
+            <div class="row">
+                <h2>Happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop me a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li id="learn-about">Learn about:</li><br>
+                        <li><a href="https://www.mongodb.com/">Mongo</a></li>
+                        <li><a href="https://expressjs.com/">Express</a></li>
+                        <li><a href="https://reactjs.org/">React</a></li>
+                        <li><a href="https://nodejs.org/en/">Node</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/mattieice"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/matthew-eisenstadter-1536872b/"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="https://github.com/mattieice7486"><i class="ion-social-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p id="copyright">
+                    Copyright &copy; 2018 by Matthew Eisenstadter. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script> -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-61026110-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+    </body>  
+    
 </html>
