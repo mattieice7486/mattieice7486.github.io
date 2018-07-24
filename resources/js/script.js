@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
     
     $('.js--scroll-to-start').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-cities').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-projects').offset().top}, 1000); 
     });
     
     
@@ -61,6 +61,8 @@ $(document).ready(function() {
     
     $('.js--wp-4').waypoint(function(direction) {
         $('.js--wp-4').addClass('animated pulse');
+    }, {
+        offset: '50%'
     });
     
     

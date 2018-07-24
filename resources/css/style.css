@@ -419,9 +419,9 @@ header {
 
 
 /* ----------------------------------------------- */
-/* CITIES */
+/* PROJECTS */
 /* ----------------------------------------------- */
-.section-cities {
+.section-projects {
     background-color: #dadada;
 }
 
@@ -431,7 +431,7 @@ header {
     margin-bottom: 15px;
 }
 
-.city-feature {
+.project-feature {
     margin-bottom: 5px;
 }
 
