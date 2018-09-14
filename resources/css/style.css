@@ -500,6 +500,8 @@ header {
 /* ----------------------------------------------- */
 .section-form {
     background-color: rgb(228, 228, 228);
+    height: 70vh;
+    padding-top: 200px;
 }
 
 .contact-form {
@@ -521,9 +523,6 @@ textarea {
     height: 100px;
 }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
 
 *:focus {outline: none;}
 
