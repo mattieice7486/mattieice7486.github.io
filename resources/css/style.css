@@ -541,6 +541,12 @@ footer {
     font-size: 80%;
 }
 
+#unh {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer-nav {
     list-style: none;
     float: left;
